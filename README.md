@@ -1,10 +1,24 @@
 # Finance
-This repository contains my personal finance projects. For the moment, it contains the following projects:
-- HJM model: a Python notebook that develops the main theoretical HJM result and use it with Principal Component Analysis and Monte Carlo simulations to price a caplet
-- Momentum trading strategy: a Python notebook that implements a momentum trading strategy on different assets and a MACD (Moving Average Convergence Divergence) strategy
-- Option pricing, greeks, implied vol in Python: a Python notebook that prices options using different methods (Black-Scholes, Binomial Tree, Monte Carlo, Finite Difference), calculates greeks and volatility smile
-- Option pricing in C++: a C++ notebook that prices options using different methods (Black-Scholes, Binomial Tree, Monte Carlo, Finite Difference)
-- Pairs trading strategy: a Python notebook that implements a pairs trading strategy with Bayesian optimization
-- Sentiment analysis from financial news: a Python notebook that performs sentiment analysis on financial news
 
-In the "Other projects" folder, I have included the report of my EPFL project on an educational chatbot. Even if it is not directly related to finance, Natural Language Processing has applications in every field, and may be applied to quantitative finance.
+This repository contains my personal finance projects. Currently, it includes the following projects:
+
+### **Interest Rate Models**
+- **HJM Model**: A Python notebook that develops the main theoretical results of the Heath-Jarrow-Morton (HJM) framework. It uses Principal Component Analysis (PCA) and Monte Carlo simulations to price a caplet.
+- **Hull-White Model**: A Python notebook that explores theoretical results of the Hull-White model and applies it to price interest rate derivatives, including caps, swaps, and swaptions.
+
+### **Trading Strategies**
+- **Momentum Trading Strategy**: A Python notebook implementing a momentum trading strategy across different assets, including a MACD (Moving Average Convergence Divergence) strategy.
+- **Pairs Trading Strategy**: A Python notebook that implements a pairs trading strategy with Bayesian optimization.
+
+### **Option Pricing**
+- **Option Pricing, Greeks, and Implied Volatility in Python**: A Python notebook that prices options using various methods (Black-Scholes, Binomial Tree, Monte Carlo, Finite Difference), calculates Greeks, and analyzes volatility smiles.
+- **Option Pricing in C++**: A C++ implementation for pricing options using different methods (Black-Scholes, Binomial Tree, Monte Carlo, Finite Difference).
+
+### **Portfolio Construction**
+- **Smart Beta**: A Python notebook that constructs an Equally Risk-Contributed portfolio using classical ETFs based on the S&P 500 (Quality, Value, Dividends, Momentum, Low Volatility, Market Cap).
+
+### **Sentiment Analysis**
+- **Sentiment Analysis from Financial News**: A Python notebook that performs sentiment analysis on financial news to extract insights.
+
+### **Other Projects**
+In the **"Other Projects"** folder, I have included the report of my **EPFL project** on an educational chatbot. While not directly related to finance, Natural Language Processing (NLP) has broad applications, including potential use cases in quantitative finance.
